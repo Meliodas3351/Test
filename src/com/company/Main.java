@@ -14,5 +14,7 @@ class Main{
     public static void main(String [] args){
         Armstrong arm = new Armstrong();
         arm.sum(25);
+
+        System.out.println("Add New Line. Created commit");
     }
 }
