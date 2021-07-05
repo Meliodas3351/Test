@@ -22,4 +22,8 @@ public class Couple {
         n=sc.nextInt();
         difference(n);
     }
+
+    public static void info(){
+        System.out.println(Couple.class);
+    }
 }

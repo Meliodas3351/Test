@@ -1,13 +1,10 @@
 package com.company;
 import static javax.swing.JOptionPane.*;
 import static java.lang.Integer.*;
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Random;
+
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.Scanner;
-
 
 
 class Main{
@@ -16,5 +13,10 @@ class Main{
         arm.sum(25);
 
         System.out.println("Add New Line. Created commit");
+
+
+        Couple.info();                                      //new code from new branch
+        Date date = new Date();
+        System.out.println(date.toString());
     }
 }
