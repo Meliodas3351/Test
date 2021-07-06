@@ -14,33 +14,25 @@ public class Armstrong {
 
     public int sum(int x){          //сумма цифр числа
         n=0;
+        int xcopy=x;
+        int xcopytwo=x;
         while(x!=0){
             n++;
             x/=10;
         }
-        System.out.println(n);
 
-
-        while(x!=0){
-            tmp=x%10;
+        while(xcopy!=0){
+            tmp=xcopy%10;
             sum+=(int)(Math.pow(tmp,n));
-            x/=10;
+            xcopy/=10;
         }
         System.out.println(sum);
         return sum;
     }
 
 
-//    public int quantity(int x){          //количество цифр числа
-//        n=0;
-//        while(x!=0){
-//            n++;
-//            x/=10;
-//        }
-//        return n;
-//    }
 
-    public void getRes(){
+    public void getRes(){                       // метод не работает:(
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter k: ");
         k=sc.nextInt();
@@ -49,5 +41,6 @@ public class Armstrong {
                 System.out.print(i + " |");
             }
         }
+        System.out.println();
     }
 }

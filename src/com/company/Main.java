@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 class Main{
     public static void main(String [] args){
         Armstrong arm = new Armstrong();
-        arm.sum(25);
+        arm.sum(152);
 
         System.out.println("Add New Line. Created commit");
 
