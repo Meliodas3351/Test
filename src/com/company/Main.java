@@ -18,5 +18,9 @@ class Main{
         Couple.info();                                      //new code from new branch
         Date date = new Date();
         System.out.println(date.toString());
+        int pullrequest=45;
+        if(pullrequest>34){
+        System.out.println("Сработало?");
+        }
     }
 }
